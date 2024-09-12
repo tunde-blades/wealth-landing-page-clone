@@ -12,16 +12,13 @@
 
 /* mobile view */
 @media(max-width:779px){
-    body{
-        /* height: 100vh; */
-        /* width: 100vw; */
-    }
     #header1{
         width: 100vw;
-        position: absolute;
+        position: relative;
         background: rgb(26, 87, 74);
         overflow: hidden;
         list-style: none;
+        padding-bottom: 30px;
     }
     .myNav{
         color: rgb(105, 218, 218);
@@ -113,8 +110,8 @@
         font-size: 1em;
     }
     #icon1{
-        padding: 3%;
-        height: 10vh;
+        padding: 1%;
+        height: 6vh;
         position: relative;
         top: 2vh;
         left: 70vw;
@@ -126,16 +123,14 @@
     }
     #mainlist{
         position: relative;
-        top: 700px;
         width: 100vw;
-        height: 140vh;
+        margin: 50px 0;
         overflow: hidden;
     }
     .list{
         position: relative;
         left: 0;
         width: 1150vw;
-        height: 700px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -201,54 +196,53 @@
     .digitalsection{
         background: rgba(239, 248, 160, 0.849);
         position: relative;
-        top: 450px;
-        height: 700px;
+        /* top: 450px; */
+        height: 600px;
     }
     .digitalbox{
         width: 90vw;
         color: rgb(40, 105, 90);
         text-align: center;
         position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        left: 50vw;
+        top: 50vh;
+        transform: translate(-45vw, -25vh);
+    }
+    .digitaltext{
+        font-size: 25px;
+        line-height: 1.2em;
     }
     .allhead{
         color: rgb(40, 105, 90);
         text-align: center;
         text-transform: capitalize;
         font-size: 40px;
-        margin-bottom: 3vh;
-    }
-    .digitaltext{
-        font-size: 25px;
-        line-height: 1.2em;
+        margin-bottom: 5vh;
     }
     #mainsection{
         width: 100vw;
         position: relative;
-        top: 32rem;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        top: 5rem;
     }
     .section1{
         position: relative;
         left: 50vw;
         transform: translate(-50vw);
     }
-    .section1 .allbox{
-        position: relative;
-        top:10vh;
-    }
+
     section img{
         width: 200px;
     }
-    .allbox{
+    .allbox img{
         color: rgb(40, 105, 90);
         text-align: center;
         position: relative;
-        left: 50%;
-        top: 30vh;
-        transform: translate(-50%, -50%);
-        width: 60vw;
+        left: 50vw;
+        transform: translate(-20vw);
+        width: 40vw;
     }
     .firstbody{
         display: flex;
@@ -289,7 +283,6 @@
     }
     .section2{
         position: relative;
-        top: -15vh;
         left: 50vw;
         transform: translate(-50vw);
         
@@ -299,7 +292,7 @@
         margin-left: 15vw;
         line-height: 5vh;
         position: relative;
-        top: 23vh;
+        /* top: 23vh; */
         width: 80vw;
     }
     .secondbody li{
@@ -318,16 +311,14 @@
         display: flex;
         align-items: center;
         position: relative;
-        top: -5vh;
-        left: 50%;
-        transform: translate(-50%);
+        left: 50vw;
+        transform: translate(-50vw);
         
     }
     .thirdbody{
         margin-left: 15vw;
         line-height: 5vh;
         position: relative;
-        top: 23vh;
         width: 80vw;
     }
     .thirdbody li{
@@ -348,7 +339,7 @@
         position: relative;
         left: 50%;
         transform: translate(-50%);
-        top: 15rem;
+        /* top: 15rem; */
         width: 80vw;
         height: 400px;
         border-radius: 20px;
@@ -385,13 +376,12 @@
     }
     #belowsection{
         position: relative;
-        top: 55rem;
-        height: 800px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         gap: 30px;
+        height: 150vh;
     }
     .wealth-details{
         width: 100vw;
@@ -426,7 +416,7 @@
     #thirdslider{
         background: rgb(26, 87, 74);
         position: relative;
-        top: 60rem;
+        /* top: 60rem; */
         height: 70%;
         width: 100vw;
         overflow: hidden;
@@ -472,7 +462,7 @@
         justify-content: space-between;
         align-items: center;
         position: relative;
-        top: 65rem;
+        /* top: 65rem; */
     }
     .fewbox{
         display: flex;
@@ -647,7 +637,6 @@
         background: rgb(26, 87, 74); 
         width: 100vw;
         padding: 30px 0;
-        /* height: 700px; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -672,16 +661,13 @@
         font-size: 22px;
         text-transform: capitalize;
     }
-    footer{
-        position: relative;
-        top: 86rem;
-    }
     .mainfooter{
-        height: 30vh;
+        position: relative;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     .footer-head{
         padding: 0 20px;
@@ -694,7 +680,9 @@
         padding: 0 100px;
         width: 100px;
     }
-    .cookies{
+
+
+    /* .cookies{
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -715,7 +703,7 @@
         height: 5vh;
         padding: 0;
         font-size: 15px;
-    }
+    } */
 
 }
 
