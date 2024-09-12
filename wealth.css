@@ -113,7 +113,6 @@
         font-size: 1em;
     }
     #icon1{
-        background-color: red;
         padding: 3%;
         height: 10vh;
         position: relative;
@@ -359,9 +358,9 @@
         justify-content: space-between;
     }
     .quote{
-        padding: 7vw;
+        padding: 5vw;
         line-height: 40px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .ceo-profile{
         width: 90vw;
@@ -392,6 +391,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        gap: 30px;
     }
     .wealth-details{
         width: 100vw;
@@ -404,7 +404,7 @@
         text-align: center;
         color: rgb(40, 105, 90); 
         padding-left: 15px;
-        font-size: 30px;
+        font-size: 20px;
         width: 80vw;
     }
     .wealthtext2{
@@ -522,7 +522,7 @@
         justify-content: center;
         padding: 40px;
         line-height: 40px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .ceo2-profile{
         background-color: rgba(214, 238, 110, 0.753);
@@ -1120,7 +1120,7 @@
     }
     .wealth-details img{
         float: right;
-        width: 230px
+        width: 230px;
     }
     .wealthtext{
         color: rgb(40, 105, 90); 
