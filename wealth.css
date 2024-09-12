@@ -113,6 +113,7 @@
         font-size: 1em;
     }
     #icon1{
+        background-color: red;
         padding: 3%;
         height: 10vh;
         position: relative;
