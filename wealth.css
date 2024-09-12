@@ -3,12 +3,12 @@
     padding: 0;
     list-style: none;
 }
-#whole-container{
+/* #whole-container{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 /* mobile view */
 @media(max-width:779px){
@@ -85,7 +85,7 @@
         justify-content: center;
         height: 220px;
         margin: 0 10px;
-        width: 250px;
+        width: 150px;
         background: rgb(236, 235, 235);
         border-radius: .8em;
         position: relative;
@@ -126,9 +126,9 @@
     }
     #mainlist{
         position: relative;
-        top: 700px;
+        top: 600px;
         width: 100vw;
-        height: 1000px;
+        height: 140vh;
         overflow: hidden;
     }
     .list{
