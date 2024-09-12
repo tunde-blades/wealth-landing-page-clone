@@ -68,14 +68,15 @@ slides.addEventListener(`onmouseover`, ()=>{
 
     
 // });
+
+
+
 //click slides
 
 slides.addEventListener(`click`, () => {
     slide = document.querySelectorAll(`.slide`);
     slide2 = document.querySelectorAll(`.slidelist`);
     list = document.querySelector(`.list`);
-    context.style.display = `flex`;
-    context.style.textWrap = `wrap`;
 
         window.scroll({
             top: 700,

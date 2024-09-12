@@ -98,8 +98,8 @@
     #firstslider .slide:hover .context{
         position: relative;
         display: flex;
-        max-width: 100px;
-        /* text-wrap: wrap; */
+        width: 100px;
+        text-wrap: wrap;
     }
   
     #firstslider img{
