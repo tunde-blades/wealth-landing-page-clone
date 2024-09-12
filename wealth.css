@@ -13,8 +13,8 @@
 /* mobile view */
 @media(max-width:779px){
     body{
-        height: 100vh;
-        width: 100vw;
+        /* height: 100vh; */
+        /* width: 100vw; */
     }
     #header1{
         width: 100vw;
