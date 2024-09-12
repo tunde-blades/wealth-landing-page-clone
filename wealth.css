@@ -68,7 +68,7 @@
         height: 210px;
     }
     .slides{
-        width: 370vw;
+        width: 430vw;
         position: relative;
         left:0;
         display: flex;
@@ -85,7 +85,7 @@
         justify-content: center;
         height: 220px;
         margin: 0 10px;
-        width: 200px;
+        width: 250px;
         background: rgb(236, 235, 235);
         border-radius: .8em;
         position: relative;
@@ -97,7 +97,7 @@
     #firstslider .slide:hover .context{
         position: relative;
         display: flex;
-        width: 90%;
+        max-width: 150px;
         transition: 3ms;
         text-wrap: wrap;
     }
