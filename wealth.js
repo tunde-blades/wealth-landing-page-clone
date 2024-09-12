@@ -60,7 +60,7 @@ slides.addEventListener(`onmouseover`, ()=>{
 //     if(slide[i].id === firstclone.id) {
 //         i = 1;
 //         slides.style.transition = `none`;
-//         slides.style.transform = `translate(${-slidewidth * i}px)`;
+        // slides.style.transform = `translate(${-slidewidth * i}px)`;
 //     }
 //     else{
 //         console.log(`hjhhshh`);
@@ -74,6 +74,8 @@ slides.addEventListener(`click`, () => {
     slide = document.querySelectorAll(`.slide`);
     slide2 = document.querySelectorAll(`.slidelist`);
     list = document.querySelector(`.list`);
+    context.style.display = `flex`;
+    context.style.textWrap = `wrap`;
 
         window.scroll({
             top: 700,

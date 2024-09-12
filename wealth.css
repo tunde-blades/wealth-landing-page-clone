@@ -86,6 +86,7 @@
         height: 220px;
         margin: 0 10px;
         width: 150px;
+        max-width: 150px;
         background: rgb(236, 235, 235);
         border-radius: .8em;
         position: relative;
@@ -97,9 +98,8 @@
     #firstslider .slide:hover .context{
         position: relative;
         display: flex;
-        max-width: 150px;
-        transition: 3ms;
-        text-wrap: wrap;
+        max-width: 100px;
+        /* text-wrap: wrap; */
     }
   
     #firstslider img{
@@ -126,7 +126,7 @@
     }
     #mainlist{
         position: relative;
-        top: 600px;
+        top: 700px;
         width: 100vw;
         height: 140vh;
         overflow: hidden;
